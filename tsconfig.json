@@ -4,7 +4,8 @@
     "baseUrl": "src",
     "outDir": "dist",
     "sourceMap": true,
-    "strict": true
+    "strict": true,
+    "moduleDetection": "force"
   },
   "include": ["samples/**/*"]
 }
