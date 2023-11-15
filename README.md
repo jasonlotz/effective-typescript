@@ -1,3 +1,7 @@
+This is a sandbox fork of the repo for the book Effective Typescript for personal testing and learning.
+---
+
+
 <img src="/cover.png" width="280" title="Cover Image" align="right">
 
 # Effective TypeScript
