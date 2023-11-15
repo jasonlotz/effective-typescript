@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-    "baseUrl": "src",
     "outDir": "dist",
     "sourceMap": true,
     "strict": true,
-    "moduleDetection": "force"
+    "moduleDetection": "force",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
   },
-  "include": ["samples/**/*"]
+  "include": ["samples/**/*"],
 }
