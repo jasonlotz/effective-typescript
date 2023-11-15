@@ -19,6 +19,7 @@ Below you'll find a complete table of contents with links to standalone code sam
 Unless otherwise noted in a comment at the top of the code sample, the samples are run with TypeScript's `strict` setting. These were produced and checked using [literate-ts][] and TypeScript 3.7.0-beta. You may want to copy/paste them into the [TypeScript playground][play].
 
 - **Chapter 1: Getting to Know TypeScript**
+
   - [:memo: Item 1][Item 1]: Understand the Relationship Between TypeScript and JavaScript
   - [:memo: Item 2][Item 2]: Know Which TypeScript Options You’re Using
   - [:memo: Item 3][Item 3]: Understand That Code Generation Is Independent of Types
@@ -26,6 +27,7 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
   - [:memo: Item 5][Item 5]: Limit Use of the any Type
 
 - **Chapter 2: TypeScript’s Type System**
+
   - [:memo: Item 6][Item 6]: Use Your Editor to Interrogate and Explore the Type System
   - [:memo: Item 7][Item 7]: Think of Types as Sets of Values
   - [:memo: Item 8][Item 8]: Know How to Tell Whether a Symbol Is in the Type Space or Value Space
@@ -41,6 +43,7 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
   - [:memo: Item 18][Item 18]: Use Mapped Types to Keep Values in Sync
 
 - **Chapter 3: Type Inference**
+
   - [:memo: Item 19][Item 19]: Avoid Cluttering Your Code with Inferable Types
   - [:memo: Item 20][Item 20]: Use Different Variables for Different Types
   - [:memo: Item 21][Item 21]: Understand Type Widening
@@ -52,6 +55,7 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
   - [:memo: Item 27][Item 27]: Use Functional Constructs and Libraries to Help Types Flow
 
 - **Chapter 4: Type Design**
+
   - [:memo: Item 28][Item 28]: Prefer Types That Always Represent Valid States
   - [:memo: Item 29][Item 29]: Be Liberal in What You Accept and Strict in What You Produce
   - [:memo: Item 30][Item 30]: Don’t Repeat Type Information in Documentation
@@ -64,6 +68,7 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
   - [:memo: Item 37][Item 37]: Consider “Brands” for Nominal Typing
 
 - **Chapter 5: Working with any**
+
   - [:memo: Item 38][Item 38]: Use the Narrowest Possible Scope for any Types
   - [:memo: Item 39][Item 39]: Prefer More Precise Variants of any to Plain any
   - [:memo: Item 40][Item 40]: Hide Unsafe Type Assertions in Well-Typed Functions
@@ -73,6 +78,7 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
   - [:memo: Item 44][Item 44]: Track Your Type Coverage to Prevent Regressions in Type Safety
 
 - **Chapter 6: Types Declarations and @types**
+
   - :memo: Item 45: Put TypeScript and @types in devDependencies
   - :memo: Item 46: Understand the Three Versions Involved in Type Declarations
   - [:memo: Item 47][Item 47]: Export All Types That Appear in Public APIs
@@ -83,6 +89,7 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
   - [:memo: Item 52][Item 52]: Be Aware of the Pitfalls of Testing Types
 
 - **Chapter 7: Writing and Running Your Code**
+
   - [:memo: Item 53][Item 53]: Prefer ECMAScript Features to TypeScript Features
   - [:memo: Item 54][Item 54]: Know How to Iterate Over Objects
   - [:memo: Item 55][Item 55]: Understand the DOM hierarchy
@@ -101,13 +108,11 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
 [ebook]: https://www.ebooks.com/en-us/209820951/effective-typescript/dan-vanderkam/?_c=1
 [literate-ts]: https://github.com/danvk/literate-ts
 [play]: https://www.typescriptlang.org/play/
-
 [Item 1]: /samples/ch01-intro/item-01-ts-vs-js
 [Item 2]: /samples/ch01-intro/item-02-which-ts
 [Item 3]: /samples/ch01-intro/item-03-independent
 [Item 4]: /samples/ch01-intro/item-04-structural
 [Item 5]: /samples/ch01-intro/item-05-any
-
 [Item 6]: /samples/ch02-types/item-06-editor
 [Item 7]: /samples/ch02-types/item-07-types-as-sets
 [Item 8]: /samples/ch02-types/item-08-type-value-space
@@ -121,7 +126,6 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
 [Item 16]: /samples/ch02-types/item-16-number-index
 [Item 17]: /samples/ch02-types/item-17-readonly
 [Item 18]: /samples/ch02-types/item-18-values-in-sync
-
 [Item 19]: /samples/ch03-inference/item-19-avoid-inferable
 [Item 20]: /samples/ch03-inference/item-20-one-var-one-type
 [Item 21]: /samples/ch03-inference/item-21-widening
@@ -131,7 +135,6 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
 [Item 25]: /samples/ch03-inference/item-25-use-async-await
 [Item 26]: /samples/ch03-inference/item-26-context-inference
 [Item 27]: /samples/ch03-inference/item-27-well-typed-libs
-
 [Item 28]: /samples/ch04-design/item-28-valid-states
 [Item 29]: /samples/ch04-design/item-29-loose-accept-strict-produce
 [Item 30]: /samples/ch04-design/item-30-jsdoc-repeat
@@ -142,7 +145,6 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
 [Item 35]: /samples/ch04-design/item-35-consider-codegen
 [Item 36]: /samples/ch04-design/item-36-language-of-domain
 [Item 37]: /samples/ch04-design/item-37-brands
-
 [Item 38]: /samples/ch05-any/item-38-narrowest-any
 [Item 39]: /samples/ch05-any/item-39-specific-any
 [Item 40]: /samples/ch05-any/item-40-hide-unsafe-casts
@@ -150,20 +152,17 @@ Unless otherwise noted in a comment at the top of the code sample, the samples a
 [Item 42]: /samples/ch05-any/item-42-never-unknown
 [Item 43]: /samples/ch05-any/item-43-type-safe-monkey
 [Item 44]: /samples/ch05-any/item-44-type-percentage
-
 [Item 47]: /samples/ch06-declarations/item-47-export-your-types
 [Item 48]: /samples/ch06-declarations/item-48-use-tsdoc
 [Item 49]: /samples/ch06-declarations/item-49-this-in-callbacks
 [Item 50]: /samples/ch06-declarations/item-50-conditional-overload
 [Item 51]: /samples/ch06-declarations/item-51-mirror-types-for-deps
 [Item 52]: /samples/ch06-declarations/item-52-test-your-types
-
 [Item 53]: /samples/ch07-write-run/item-53-avoid-non-ecma
 [Item 54]: /samples/ch07-write-run/item-54-iterate-objects
 [Item 55]: /samples/ch07-write-run/item-55-understand-the-dom
 [Item 56]: /samples/ch07-write-run/item-56-private-rely
 [Item 57]: /samples/ch07-write-run/item-57-source-maps-debug
-
 [Item 58]: /samples/ch08-migrate/item-58-write-modern-js
 [Item 59]: /samples/ch08-migrate/item-59-jsdoc-tscheck
 [Item 61]: /samples/ch08-migrate/item-61-convert-up-the-graph

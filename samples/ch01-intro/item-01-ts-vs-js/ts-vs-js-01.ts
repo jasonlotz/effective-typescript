@@ -1,3 +1,5 @@
 function greet(who: string) {
-  console.log('Hello', who);
+  console.log("Hello", who);
 }
+
+greet("world");
